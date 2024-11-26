@@ -1,0 +1,62 @@
+/* Fundo e alinhamento geral */
+body {
+    background-color: #669b61;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilo do card */
+  .card {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  /* Título */
+  .card h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Lista de contatos */
+  #contactList {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  /* Itens da lista */
+  .list-group-item {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .list-group-item button {
+    transition: all 0.3s ease;
+  }
+  
+  .list-group-item button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Botão principal */
+  button {
+    font-weight: bold;
+  }
+  
+  /* Scroll customizado */
+  #contactList::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #contactList::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 10px;
+  }
+  
+  #contactList::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
